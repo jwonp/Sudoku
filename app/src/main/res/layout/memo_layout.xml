@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/memo1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/one"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/memo2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/two"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/memo3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/three"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:visibility="invisible" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/memo4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/four"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/memo5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/five"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/memo6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/six"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:visibility="invisible" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/memo7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/seven"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/memo8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/eight"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/memo9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/nine"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:visibility="invisible" />
+    </TableRow>
+
+
+</TableLayout>
